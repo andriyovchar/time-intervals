@@ -1,0 +1,19 @@
+.table-container {
+  width: 1000px;
+  overflow-x: scroll;
+  table,
+  td {
+    border: 1px solid #333;
+  }
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
+
+td, th {
+  white-space: nowrap;
+  padding: 10px;
+}

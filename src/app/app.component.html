@@ -1,0 +1,14 @@
+<h3>Time Intervals Data</h3>
+
+<div class="select-container">
+  <label for="interval">Select time interval:</label>
+  <select id="interval" [(ngModel)]="selectedInterval">
+    <option value="5">5 minutes</option>
+    <option value="30">30 minutes</option>
+    <option value="60">1 hour</option>
+  </select>
+</div>
+
+<app-time-grid
+  [interval]="selectedInterval"
+></app-time-grid>
